@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Voters Registration Smart contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is a smart contract for registering voters.The details of the registerd voters can be viewed based on their votersID(etherium address), including their age and contact address. The voters can only be registerred by the contract deploy address, and multiple voters registration is not allowed.
 
-Try running some of the following tasks:
+Quicknode was used to deploy the smart contract through hardhat.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+
 ```
